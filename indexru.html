@@ -3,25 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--    <meta http-equiv="Cache-control" content="public">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <!-- <meta http-equiv="Cache-control" content="public"> -->
     <title>Document</title>
-<!--
-    <link rel="stylesheet" href="css/bootstrap-grid.css" media="none" onload="if(media!='all')media='all'">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" media="none" onload="if(media!='all')media='all'">
--->
 
-<!--    <link rel="stylesheet" href="css/style.css" media="none" onload="if(media!='all')media='all'">-->
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/slick.css" media="none" onload="if(media!='all')media='all'">
-<!--    <link rel="stylesheet" href="css/slick.css">-->
-    <link rel="stylesheet" href="css/styleru.css">
-<!--    <link rel="stylesheet" href="css/style.css" media="none" onload="if(media!='all')media='all'">-->
-<!--    <script src="js/scroll.js"></script>-->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body>
-<div id="page-wrap">
+<body class="ru">
 <div id="nav_mobile" class="nav_mobile animate_bg">
        <div class="mobile_wrapper">
         <nav class="main__nav nav_mob row flex-column justify-content-around">
@@ -33,25 +25,25 @@
                 <!-- <a href="#strategy" class="nav__link">стратегия развития</a> -->
         </nav>
         </div>
-</div>
-
-<header>
+</div>	
+<div id="page-wrap">
+<header class="sticky">
 <div class="container">   
     <div id="head" class="header__nav row justify-content-between align-items-center">
-        <div class="header__logo">
+        <div class="header__logo menu-line">
             <a href="#main"><img src="img/logo.svg" alt=""></a>
         </div>
         <nav class="main__nav">
-                <a href="#stock" class="nav__link">биржа</a>
-                <a href="#advantages" class="nav__link">преимущества</a>
-                <a href="#technology" class="nav__link">технологии</a>
-                <a href="#forwho" class="nav__link">для кого?</a>
-                <a href="#loyalty" class="nav__link">программа лояльности</a>
-                <!-- <a href="#strategy" class="nav__link">стратегия развития</a> -->
+                <a href="#stock" class="nav__link"><span class="menu-line">биржа</span></a>
+                <a href="#advantages" class="nav__link"><span class="menu-line">преимущества</span></a>
+                <a href="#technology" class="nav__link"><span class="menu-line">технологии</span></a>
+                <a href="#forwho" class="nav__link"><span class="menu-line">для кого?</span></a>
+                <a href="#loyalty" class="nav__link"><span class="menu-line">программа лояльности</span></a>
+                <!-- <a href="#strategy" class="nav__link"><span class="menu-line">стратегия развития</span></a> -->
         </nav>
-        <div class="header__lang">
+        <div class="header__lang menu-line">
           <div class="header__lang__cur">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width:"100%" height:"100%"
             viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
            <path style="fill:#F5F5F5;" d="M512,200.093H0V97.104c0-4.875,3.953-8.828,8.828-8.828h494.345c4.875,0,8.828,3.953,8.828,8.828
             L512,200.093L512,200.093z"/>
@@ -63,7 +55,7 @@
           <ul>
             <li>
               <a href="index.html">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height:"100%"
    viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
 <path style="fill:#F5F5F5;" d="M503.172,423.725H8.828c-4.875,0-8.828-3.953-8.828-8.828V97.104c0-4.875,3.953-8.828,8.828-8.828
   h494.345c4.875,0,8.828,3.953,8.828,8.828v317.793C512,419.773,508.047,423.725,503.172,423.725z"/>
@@ -228,13 +220,12 @@
     <section class="stock__info">
        <div class="stock__info__descr_wrapp row justify-content-center">
             <div class="stock__info__descr">
-        <h1>Биржа, которая не нуждается в доверии</h1>
-        <p>Level2 Exchange это первая кросс-чейн гибридная биржа, призванная обеспечить своих пользователей ликвидностью и безопасностью. Мы возраждаем безопасный валютный рынок!</p>
-       <a href="http://demo2.l2.exchange/access?mode=dex" class="link__register">Зарегистрироваться</a>
+        <h1><span class="lines"><span class="lines-text">Биржа, которая не нуждается в доверии</span></span></h1>
+        <p><span class="lines-text">Level2 Exchange это первая кросс-чейн гибридная биржа, призванная обеспечить своих пользователей ликвидностью и безопасностью. Мы возраждаем безопасный валютный рынок!</span></p>
+        <a href="http://demo2.l2.exchange/access?mode=dex" class="link__register">Зарегистрироваться</a>
            </div>
        </div>
        <div class="stock__info__picture">
-<!--           <div class="lights"><span class="light"></span></div>-->
         <div class="light_wrapper">
            <div class="stock__img">
              <img src="img/SafariBrowser.png" alt="">  
@@ -245,31 +236,31 @@
         <div class="row justify-content-center">
            <div class="col-12 col-sm-auto">
               <div class="greenline">
-                   <p>Подпишись на полезные новости для трейдеров</p>
-                   <p>L2exchansge и получай каждую неделю бонус:</p>
+                   <p><span class="lines"><span class="lines-text">Подпишись на полезные новости для трейдеров</span></span></p>
+                   <p><span class="lines"><span class="lines-text">L2exchansge и получай каждую неделю бонус:</span></span></p>
               </div>
            </div>
            <div class="col-12 col-sm-auto form_sub">
                <div class="subscribe">
                 <form class="subscribe_form">
-                    <div class="subscribe__field">
+                  <div class="subscribe__field">
                     <input maxlength="28" name="email" type="email" class="name" value="" required="" autocomplete="off">
-                     
-                     <label for="name">Введите свой email</label>
-                    
-                     </div><button class="submit" type="submit" name="submit"><div class="scrollanim">
-                     <div class="scrollanim_wrap">
-                      <div class="firs">Подписаться</div ><div class='firs'>Подписаться</div></div>                      
-                     </div>
-                      </button>                 
-                </form>
+                   
+                    <label for="name">Введите свой email</label>
+                  
+                   </div><button class="submit" type="submit" name="submit"><div class="scrollanim">
+                   <div class="scrollanim_wrap">
+                    <div class="firs">Подписаться</div ><div class='firs'>Подписаться</div></div>                      
+                   </div>
+                    </button>                 
+                   </form>
                </div>
            </div>
        </div>  
        </div>
     </section>
     <section id="stock" class="whatis">
-        <h2>Что из себя представляет биржа?</h2>
+        <h2><span class="lines"><span class="lines-text">Что из себя представляет биржа?</span></span></h2>
         <div class="row">
             <div class="col-12 col-lg-8 order-xl-2">
               <div class="animate_scheme">
@@ -281,13 +272,10 @@
             <div class="col-12 col-lg-4 order-xl-1">
                 <div class="greenline">
                     <ul>
-                        <li>LEVEL2 – это гибрид централизованной 
-и децентрализованной бирж. Мы берем лучшее от каждой из них.</li>
-                        <li>Децентрализованные депозиты и централизованный ордер бук наряду 
-с использованием платежных каналов
-в мультичейн среде.</li>
-                        <li>LEVEL2 обеспечивает безопасные депозиты благодаря технологии платежных каналов на ETH, EOS, NEO и QTUM. </li>
-                        <li>Для всех остальных блокчейнов вы можете использовать систему депозитов биржи.</li>
+                        <li><span class="lines"><span class="lines-text">LEVEL2 – это гибрид централизованной и децентрализованной бирж. Мы берем лучшее от каждой из них.</span></span></li>
+                        <li><span class="lines"><span class="lines-text">Децентрализованные депозиты и централизованный ордер бук наряду с использованием платежных каналов в мультичейн среде.</span></span></li>
+                        <li><span class="lines"><span class="lines-text">LEVEL2 обеспечивает безопасные депозиты благодаря технологии платежных каналов на ETH, EOS, NEO и QTUM.</span></span></li>
+                        <li><span class="lines"><span class="lines-text">Для всех остальных блокчейнов вы можете использовать систему депозитов биржи.</span></span></li>
                     </ul>
                 </div>
             </div>
@@ -298,7 +286,7 @@
               <div class="exchange__table__inner">
                  <div class="tr exchange__table__head">
                      <div class="td">Exchanges</div>
-                     <div class="td">LEVEL2</div>
+                     <div class="td">Level2</div>
                      <div class="td">Binance</div>
                      <div class="td">CoinBase Pro</div>
                      <div class="td">Bishares</div>
@@ -422,7 +410,7 @@
            </div>
     </section>
     <section id="advantages" class="tech">
-       <h2 class='hidden'>Технологии которые дают нам преимущества.</h2>       
+       <h2 class='hidden'><span class="lines"><span class="lines-text">Технологии которые дают нам преимущества.</span></span></h2>       
         <div class="row">
             <div class="col-12 col-lg-8">
               <div class="animate_brokers">
@@ -432,12 +420,12 @@
               </div>
             </div>
             <div class="col-12 col-lg-4 tech__descr">
-               <h2 class='visible'>Технологии которые дают нам преимущества.</h2>
+               <h2 class='visible'><span class="lines"><span class="lines-text">Технологии которые дают нам преимущества.</span></span></h2>
                 <div class="greenline">
                     <ul>
-                        <li><h3>Высокая скорость транзакций</h3></li>
-                        <li>Мы используем профессиональные технологии FPGA, оптимизированные под высокие нагрузки, соответствующие движку Fix / Fast протоколам API от традиционных бирж, таких как NYSE, LSE для достижения максимальной производительности в торговле для наших пользователей.
-                        </li>
+                        <li><h3><span class="lines"><span class="lines-text">Высокая скорость транзакций</h3></li>
+                        <li><span class="lines"><span class="lines-text">Мы используем профессиональные технологии FPGA, оптимизированные под высокие нагрузки, соответствующие движку Fix / Fast протоколам API от традиционных бирж, таких как NYSE, LSE для достижения максимальной производительности в торговле для наших пользователей.
+												</span></span></li>
                     </ul>
                 </div>
             </div>
@@ -448,25 +436,27 @@
             <div class="col-12 col-xl-3">
                 <div class="greenline">
                     <ul>
-                        <li><h3>Продвинутые возможности для трейдинга в любой ситуации на рынке</h3></li>
+                        <li><h3><span class="lines"><span class="lines-text">Продвинутые возможности для трейдинга в любой ситуации на рынке</span></span></h3></li>
                     </ul>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-6">
-                <img data-src="img/chart.png" src="" alt="">
+            	<div class="light_wrapper">
+                <img class="chart-img" data-src="img/chart.png" src="" alt="">
+               </div>
             </div>
             <div class="col-12 col-md-6 col-xl-3">
                 <div class="graph__descr">
-                    <h3>Маржинальная торговля. Маржинальное финансирование.</h3>
-                    <p>Обеспечение торговых заявок кредитными средствами с хранением обеспечения внутри платежных каналов</p>
+                    <h3><span class="lines"><span class="lines-text">Маржинальная торговля. Маржинальное финансирование.</span></span></h3>
+                    <p><span class="lines"><span class="lines-text">Обеспечение торговых заявок кредитными средствами с хранением обеспечения внутри платежных каналов</span></span></p>
                 </div>                
                 <div class="graph__descr">
-                    <h3>Смарт трейд</h3>
-                    <p>Система умных ордеров для защиты интересов трейдера: стоп-лосс, тейк-профит, IFD, OCO, IFDOCO</p>
+                    <h3><span class="lines"><span class="lines-text">Смарт трейд</span></span></h3>
+                    <p><span class="lines"><span class="lines-text">Система умных ордеров для защиты интересов трейдера: стоп-лосс, тейк-профит, IFD, OCO, IFDOCO</span></span></p>
                 </div>
                 <div class="graph__descr">
-                    <h3>Деривативы</h3>
-                    <p>LEVEL2 Exchange работает с несколькими финансовыми инструментами, такими как фьючерсы, индексные фонды и ПАММ инвестирование.</p>
+                    <h3><span class="lines"><span class="lines-text">Деривативы</span></span></h3>
+                    <p><span class="lines"><span class="lines-text">LEVEL2 Exchange работает с несколькими финансовыми инструментами, такими как фьючерсы, индексные фонды и ПАММ инвестирование.</span></span></p>
                 </div>
             </div>
         </div>
@@ -475,7 +465,7 @@
        <div class="greencircle__centre">
            <div class="greencircle__image">
               <div class="light_wrapper">
-               <img data-src="img/greencircle.png" src="" alt="">
+               <img class="circle-image" data-src="img/greencircle.png" src="" alt="">
               </div>
                <div class="greencircle__image__inner">
                    <p>Мы разработали наиболее удобную,
@@ -489,16 +479,16 @@
         <div class="row justify-content-between first__row">
             <div class="col-3">
                 <div class="greencircle__item ">
-                    <h4>Долгосрочные инвесторы</h4>
-                    <h4 class="numbertitle">1.</h4>
+                    <h4><span class="lines"><span class="lines-text">Долгосрочные инвесторы</span></span></h4>
+                    <h4 class="numbertitle"><span class="lines"><span class="lines-text">1.</span></span></h4>
                     <div class="pointline"></div>
-                    <p>Банки и брокеры, владельцы фондов, хедж-фонды, профессиональные трейдеры и финансовые менеджеры</p>
+                    <p><span class="lines"><span class="lines-text">Банки и брокеры, владельцы фондов, хедж-фонды, профессиональные трейдеры и финансовые менеджеры</span></span></p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="greencircle__item text-right">
-                    <h4>Институционный капитал</h4>
-                    <h4 class="numbertitle">2.</h4>
+                    <h4><span class="lines"><span class="lines-text">Институционный капитал</span></span></h4>
+                    <h4 class="numbertitle"><span class="lines"><span class="lines-text">2.</span></span></h4>
                     <div class="pointline"></div>
                 </div>
             </div>
@@ -506,62 +496,62 @@
         <div class="row justify-content-between second__row">
             <div class="col-3">
                 <div class="greencircle__item">
-                    <h4>Трейдеры</h4>
-                    <h4 class="numbertitle">3.</h4>
+                    <h4><span class="lines"><span class="lines-text">Трейдеры</span></span></h4>
+                    <h4 class="numbertitle"><span class="lines"><span class="lines-text">3.</span></span></h4>
                     <div class="pointline"></div>
-                    <p>Удобный интерфейс, безопасное соединение,<br>быстрый ввод / вывод средств</p>
+                    <p><span class="lines"><span class="lines-text">Удобный интерфейс, безопасное соединение,<br>быстрый ввод / вывод средств</span></span></p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="greencircle__item text-right">
-                    <h4>Маркетмейкеры</h4>
-                    <h4 class="numbertitle">4.</h4>
+                    <h4><span class="lines"><span class="lines-text">Маркетмейкеры</span></span></h4>
+                    <h4 class="numbertitle"><span class="lines"><span class="lines-text">4.</span></span></h4>
                     <div class="pointline"></div>
-                    <p>Открытое<br>сообщество</p>
+                    <p><span class="lines"><span class="lines-text">Открытое<br>сообщество</span></span></p>
                 </div>
             </div>
         </div>
         <div class="row justify-content-between third__row">
             <div class="col-2">
                 <div class="greencircle__item">
-                    <h4 class="numbertitle">5.</h4>
-                    <h4>Брок-Партнеры</h4>
+                    <h4 class="numbertitle"><span class="lines"><span class="lines-text">5.</span></span></h4>
+                    <h4><span class="lines"><span class="lines-text">Брок-Партнеры</span></span></h4>
                     <div class="pointline"></div>
-                    <p>Персональная инфраструктура, дополнительная верификация, прием фиатных средств</p>
+                    <p><span class="lines"><span class="lines-text">Персональная инфраструктура, дополнительная верификация, прием фиатных средств</span></span></p>
                 </div>
             </div>
             <div class="col-3">
                 <div class="greencircle__item text-right">
-                    <h4 class="numbertitle">6.</h4>
-                    <h4>Профессиональные трейдеры</h4>
+                    <h4 class="numbertitle"><span class="lines"><span class="lines-text">6.</span></span></h4>
+                    <h4><span class="lines"><span class="lines-text">Профессиональные трейдеры</span></span></h4>
                     <div class="pointline"></div>
-                    <p>FIX FAST API соединение, возможность распределения, низкое время ожидания, специальные комиссии и скидки, HFT, деривативы, маржинальная торговля</p>
+                    <p><span class="lines"><span class="lines-text">FIX FAST API соединение, возможность распределения, низкое время ожидания, специальные комиссии и скидки, HFT, деривативы, маржинальная торговля</span></span></p>
                 </div>
             </div>
         </div>
     </div>
     <div class="greencircle__desc__mob">
         <div class="row justify-content-between">
-            <div class="col-6"><h4>1.<br> Долгосрочные инвесторы</h4>
-                <p>Банки и брокеры, владельцы фондов, хедж-фонды, профессиональные трейдеры и финансовые менеджеры</p></div>
-            <div class="col-6"><h4>2.<br> Институционный капитал</h4></div>
-            <div class="col-6"><h4>3.<br> Трейдеры</h4>                   
-                <p>Удобный интерфейс, безопасное соединение,<br>быстрый ввод / вывод средств</p></div>
-            <div class="col-6"><h4>4.<br> Маркетмейкеры</h4>
-                <p>Открытое<br>сообщество</p></div>
-            <div class="col-6"><h4>5.<br> Брок-Партнеры</h4>
-                    <p>Персональная инфраструктура, дополнительная верификация, прием фиатных средств</p></div>
-            <div class="col-6"><h4>6.<br> Профессиональные трейдеры</h4>
-                <p>FIX FAST API соединение, возможность распределения, низкое время ожидания, специальные комиссии и скидки, HFT, деривативы, маржинальная торговля</p></div>
+            <div class="col-6 col-sm-4"><h4><span class="lines"><span class="lines-text">1. Долгосрочные инвесторы</span></span></h4>
+                <p><span class="lines"><span class="lines-text">Банки и брокеры, владельцы фондов, хедж-фонды, профессиональные трейдеры и финансовые менеджеры</span></span></p></div>
+            <div class="col-6 col-sm-4 offset-sm-2"><h4><span class="lines"><span class="lines-text">2. Институционный капитал</span></span></h4></div>
+            <div class="col-6 col-sm-4"><h4><span class="lines"><span class="lines-text">3. Трейдеры</span></span></h4>                   
+                <p><span class="lines"><span class="lines-text">Удобный интерфейс, безопасное соединение,<br>быстрый ввод / вывод средств</span></span></p> </div>
+            <div class="col-6 col-sm-4 offset-sm-2"><h4><span class="lines"><span class="lines-text">4. Маркетмейкеры</span></span></h4>
+                <p><span class="lines"><span class="lines-text">Открытое<br>сообщество</span></span></p></div>
+            <div class="col-6 col-sm-4"><h4><span class="lines"><span class="lines-text">5. Брок-Партнеры</span></span></h4>
+                    <p><span class="lines"><span class="lines-text">Персональная инфраструктура, дополнительная верификация, прием фиатных средств</span></span></p></div>
+            <div class="col-6 col-sm-4 offset-sm-2"><h4><span class="lines"><span class="lines-text">6. Профессиональные трейдеры</span></span></h4>
+                <p><span class="lines"><span class="lines-text">FIX FAST API соединение, возможность распределения, низкое время ожидания, специальные комиссии и скидки, HFT, деривативы, маржинальная торговля</span></span></p></div>
         </div>
     </div>    
     </section>
     <section id="loyalty" class="loyalty">
-        <h2>Лучшая программа лояльности для трейдеров</h2>
+        <h2><span class="lines"><span class="lines-text">Лучшая программа лояльности для трейдеров</span></span></h2>
         <div class="row">
             <div class="col-12 order-xl-2 col-xl-8">
                <div class="light_wrapper">
-                <img data-src="img/profile.png" src="" alt="">
+                <img class="profile-img" data-src="img/profile.png" src="" alt="">
                </div>
             </div>
             <div class="col-12 order-xl-1 col-xl-2 text-right">
@@ -571,8 +561,8 @@
                         <img data-src="img/icons/online-shop.svg" src="" alt="">
                     </div>
                     <div class="loyalty__item__text">
-                        <h3>MARKET <span class="loyalline"><span class="loyalline__inner"></span></span></h3>
-                        <p>Внутренний маркет биржи, <br>где вы можете использовать <br>накопленные балы</p>
+                        <h3><span class="lines"><span class="lines-text">MARKET</span></span> <span class="loyalline"><span class="loyalline__inner"></span></span></h3>
+                        <p><span class="lines"><span class="lines-text">Внутренний маркет биржи, <br>где вы можете использовать <br>накопленные балы</span></span></p>
                     </div>
                 </div>
                 <div class="loyalty__item fund">
@@ -580,8 +570,8 @@
                         <img data-src="img/icons/bank.svg" src="" alt="">
                     </div>
                     <div class="loyalty__item__text">
-                        <h3>FUND<span class="loyalline"><span class="loyalline__inner"></span></span></h3>
-                        <p>Каждый день мы проводим розыгрыш фонда, который формируется ежедневно</p>
+                        <h3><span class="lines"><span class="lines-text">FUND</span></span><span class="loyalline"><span class="loyalline__inner"></span></span></h3>
+                        <p><span class="lines"><span class="lines-text">Каждый день мы проводим розыгрыш фонда, который формируется ежедневно</span></span></p>
                     </div>
                 </div>
                 <div class="loyalty__item">
@@ -589,8 +579,9 @@
                         <img data-src="img/icons/coins.svg" src="" alt="">
                     </div>
                     <div class="loyalty__item__text">
-                        <h3>TRADE-2-MINE<span class="loyalline"></span></h3>
-                        <p>Намайненные токены начисляются трейдерами в сумме 100% потраченной комиссии в момент совершения сделки на бирже в виде поставочных фьючерсов.</p>
+                        <h3><span class="lines"><span class="lines-text">TRADE-2-MINE</span></span><span class="loyalline"></span></h3>
+                        <p><span class="lines"><span class="lines-text">
+Намайненные токены начисляются трейдерами в сумме 100% потраченной комиссии в момент совершения сделки на бирже в виде поставочных фьючерсов.</span></span></p>
                     </div>
                 </div>                                
               </div>                                
@@ -602,8 +593,8 @@
                         <img data-src="img/icons/friendship.svg" src="" alt="">
                     </div>
                     <div class="loyalty__item__text">
-                        <h3>REFERAL SYSTEM<span class="loyalline"><span class="loyalline__inner"></span></span></h3>
-                        <p>50% комисси от <br>приглашенных пользователей</p>
+                        <h3><span class="lines"><span class="lines-text">REFERAL SYSTEM</span></span><span class="loyalline"><span class="loyalline__inner"></span></span></h3>
+                        <p><span class="lines"><span class="lines-text">50% комисси от <br>приглашенных пользователей</span></span></p>
                     </div>
                 </div>
                 <div class="loyalty__item case">
@@ -611,8 +602,8 @@
                         <img data-src="img/icons/chest.svg" src="" alt="">
                     </div>
                     <div class="loyalty__item__text">
-                        <h3>CASE<span class="loyalline"><span class="loyalline__inner"></span></span></h3>
-                        <p>При каждом достижении уровня открывается кейс, в котором есть возможность получить (Баллы, бонусы, билеты, турниры и др)</p>
+                        <h3><span class="lines"><span class="lines-text">CASE</span></span><span class="loyalline"><span class="loyalline__inner"></span></span></h3>
+                        <p><span class="lines"><span class="lines-text">При каждом достижении уровня открывается кейс, в котором есть возможность получить (Баллы, бонусы, билеты, турниры и др)</span></span></p>
                     </div>
                 </div>
                 <div class="loyalty__item tournament">
@@ -620,8 +611,8 @@
                         <img data-src="img/icons/cup.svg" src="" alt="">
                     </div>
                     <div class="loyalty__item__text">
-                        <h3>TOURNAMENT<span class="loyalline"><span class="loyalline__inner"></span></span></h3>
-                        <p>Биржа постоянно проводит турниры, где у каждого есть возможность выиграть <br>солидный приз</p>
+                        <h3><span class="lines"><span class="lines-text">TOURNAMENT</span></span><span class="loyalline"><span class="loyalline__inner"></span></span></h3>
+                        <p><span class="lines"><span class="lines-text">Биржа постоянно проводит турниры, где у каждого есть возможность выиграть <br>солидный приз</span></span></p>
                     </div>
                 </div>                                
             </div>            
@@ -629,7 +620,7 @@
         </div>
     </section>
     <!-- <section id="strategy" class="roadmap">
-        <h2>Дорожная карта развития функционала биржи</h2>
+        <h2><span class="lines"><span class="lines-text">Дорожная карта развития функционала биржи</span></span></h2>
         <div class="roadmapline line-gray"></div>
         <div class="roadmapline line-green"></div>
         <div class="roadmap__slider">
@@ -638,6 +629,7 @@
                 <div class="slider__item__inner">
                    <div class="slider__head">
                     <h4 class="data">0 Июль, 2018</h4>
+                    <h4>0 Июль, 2018</h4>
                     <h5>Прототип</h5>                      
                    </div>
                     <div class="slider__body">
@@ -654,6 +646,7 @@
                 <div class="slider__item__inner">
                    <div class="slider__head">
                     <h4 class="data">1 Июль, 2018</h4>
+                    <h4>1 Июль, 2018</h4>
                     <h5>Прототип</h5>                      
                    </div>
                     <div class="slider__body">
@@ -670,6 +663,7 @@
                 <div class="slider__item__inner">
                    <div class="slider__head">
                     <h4 class="data">2 Июль, 2018</h4>
+                    <h4>2 Июль, 2018</h4>
                     <h5>Прототип</h5>                      
                    </div>
                     <div class="slider__body">
@@ -686,6 +680,7 @@
                 <div class="slider__item__inner">
                    <div class="slider__head">
                     <h4 class="data">3 Июль, 2018</h4>
+                    <h4>3 Июль, 2018</h4>
                     <h5>Прототип</h5>                      
                    </div>
                     <div class="slider__body">
@@ -702,6 +697,7 @@
                 <div class="slider__item__inner">
                    <div class="slider__head">
                     <h4 class="data">4 Июль, 2018</h4>
+                    <h4>4 Июль, 2018</h4> 
                     <h5>Прототип</h5>                      
                    </div>
                     <div class="slider__body">
@@ -718,6 +714,7 @@
                 <div class="slider__item__inner">
                    <div class="slider__head">
                     <h4 class="data">5 Июль, 2018</h4>
+                    <h4>5 Июль, 2018</h4>
                     <h5>Прототип</h5>                      
                    </div>
                     <div class="slider__body">
@@ -732,15 +729,15 @@
         </div>
     </section> -->
     <section id="team" class="support">
-        <h2>При поддержке:</h2>
+        <h2><span class="lines"><span class="lines-text">При поддержке:</span></span></h2>
         <div class="support__img">
-        <div class="row justify-content-center">
-            <div class="col-6 col-md-4 col-lg-2"><img data-src="img/support/0.png" src="" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2"><img data-src="img/support/1.png" src="" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2"><img data-src="img/support/2.png" src="" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2"><img data-src="img/support/3.png" src="" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2"><img data-src="img/support/4.png" src="" alt=""></div>
-            <div class="col-6 col-md-4 col-lg-2"><img data-src="img/support/5.png" src="" alt=""></div>    
+        <div class="row no-gutters justify-content-center justify-content-lg-between">
+            <div class="col-6 col-md-4 col-lg-1 support__img__item"><img data-src="img/support/0.png" src="" alt=""></div>
+            <div class="col-6 col-md-4 col-lg-1 support__img__item"><img data-src="img/support/1.png" src="" alt=""></div>
+            <div class="col-6 col-md-4 col-lg-1 support__img__item"><img data-src="img/support/2.png" src="" alt=""></div>
+            <div class="col-6 col-md-4 col-lg-1 support__img__item"><img data-src="img/support/3.png" src="" alt=""></div>
+            <div class="col-6 col-md-4 col-lg-1 support__img__item"><img data-src="img/support/4.png" src="" alt=""></div>
+            <div class="col-6 col-md-4 col-lg-1 support__img__item"><img data-src="img/support/5.png" src="" alt=""></div>
         </div>
         </div>
     </section>
@@ -749,21 +746,22 @@
 <footer>
    <div class="container">
     <div class="footer__header">
-        <h2>Контактная информация LEVEL2 Exchange</h2>
-        <div class="row no-gutters justify-content-between">
+        <h2><span class="lines"><span class="lines-text">Контактная информация LEVEL2 Exchange</span></span></h2>
+        <div class="row no-gutters justify-content-between footer__header__info">
+
            <div class="col-12 col-sm-auto margin-auto form_sub">
                <div class="subscribe">
                 <form class="subscribe_form">
-                    <div class="subscribe__field">
+                  <div class="subscribe__field">
                     <input maxlength="28" name="email" type="email" class="name" value="" required="" autocomplete="off">
-                     
-                     <label for="name">Введите свой email</label>
-                    
-                     </div><button class="submit" type="submit" name="submit"><div class="scrollanim">
-                     <div class="scrollanim_wrap">
-                      <div class="firs">Подписаться</div ><div class='firs'>Подписаться</div></div>                      
-                     </div>
-                      </button>                 
+                   
+                    <label for="name">Введите свой email</label>
+                  
+                </div><button class="submit" type="submit" name="submit"><div class="scrollanim">
+                    <div class="scrollanim_wrap">
+                    <div class="firs">Подписаться</div ><div class='firs'>Подписаться</div></div>                      
+                   </div>
+                    </button>                 
                 </form>
                </div>
            </div>
@@ -875,8 +873,7 @@
                 
 
                 <span class="underline"><a href="">Политика конфиденциальности</a></span></div>
-                
-
+             
             </div>
             
         </div>
@@ -884,6 +881,7 @@
 </footer>
 
 <script src="js/jq.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/moveit.js"></script>
 <script src="js/common.js"></script>
