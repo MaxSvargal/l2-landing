@@ -1825,10 +1825,6 @@ label.hasData {
     .slick-dots li{
         margin: 0 81px;
     }
-    .margin-auto{
-        margin: auto;
-        margin-top:35px;
-    }
 }
 
 @media screen and (max-width: 1220px) {
