@@ -209,16 +209,7 @@ $(".loyalline").each(function(i){
     $('.roadmapline.line-green').css('width', activeWidth);   
     }, duration || 0 ) 
    } 
-  
-  $(window).resize(function(){
-      calculeValues();
-      if ($('.roadmap__slider').hasClass('isactive')) {
-        setSlickLine();
-      }    
-      resetPointline();
-  })  
 
- 
 setTimeout(function() {
 $(".menu-line").each(function(i) {
     $(this).delay(100 * i).animate({
